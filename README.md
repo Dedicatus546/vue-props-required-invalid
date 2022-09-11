@@ -1,9 +1,12 @@
 # vue props `required` invalid when write props object outside `defineComponent`
 
-![type right when write in defineComponent](https://fastly.jsdelivr.net/gh/Dedicatus546/image@main/202209120108134.avif) 
+type right when write in defineComponent
 
+![](https://fastly.jsdelivr.net/gh/Dedicatus546/image@main/202209120108134.avif) 
 
-![type error when write outside defineComponent](https://fastly.jsdelivr.net/gh/Dedicatus546/image@main/202209120109518.avif)
+type error when write outside defineComponent
+
+![](https://fastly.jsdelivr.net/gh/Dedicatus546/image@main/202209120109518.avif)
 
 it seems that props `required` is infered to `boolean` instead of `true`.
 
