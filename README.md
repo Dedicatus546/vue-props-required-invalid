@@ -19,3 +19,7 @@ we should make required as `true` , and it work well.
 ![](https://fastly.jsdelivr.net/gh/Dedicatus546/image@main/202209120114839.avif)
 
 is it a type bug for vue ? it is happened both vscode and webstorm .
+
+the solution is to use `as const` to tell ts this object wont change. and required property can be infered to `true` instead of `boolean`.
+
+![](https://fastly.jsdelivr.net/gh/Dedicatus546/image@main/202209121520385.avif)
